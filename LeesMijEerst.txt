@@ -1,0 +1,42 @@
+/************************************************************************
+Opdracht: Piano-Tiles 
+Groep: Chris Groenewoud, Sebastiaan Willemsen, Tim van Dillen, Thijs Severs. 
+Klas: 5HC
+Schooljaar: 2022/2023
+*************************************************************************/
+
+Je vindt hier ons piano-tiles spel. We hebben dit spel gemaakt als opdracht van het vak Informatica voor HAVO 5. 
+In het vorige jaar hebben we al een opdracht gemaakt in HTML en CSS. In deze opdracht hebben we ook gebruikgemaakt van JavaScript. 
+
+JavaScript was voor ons alle nieuw. Om dit te leren hebben we gebruik gemaakt van de bronnen die school op Classroom heeft neergezet. 
+Daarnaast zijn we opzoek gegaan naar bronnen op het internet. Daarbij hebben we met name gebruikt gemaakt van: 
+
+[eecheng87] https://github.com/eecheng87/piano-tiles/blob/master/game.js
+Door naar deze versie van het spel te kijken kregen we een beeld hoe we met de Canvas konden werken. Daarnaast hebben we uit deze versie 
+geleerd hoe we JavaScript aan de "start"-knop konden koppelen. (Dat was veel uitzoek werk :-)).
+
+[W3Schools] https://www.w3schools.com/js/default.asp
+[W3Schools events] https://www.w3schools.com/jsref/met_element_addeventlistener.asp
+W3Schools helpt met veel kleine stukjes code voorbeeld. 
+
+[Game design doc]Game design in JS
+Document wat op classroom staat. 
+
+Voor het schrijven de code hebben we gebruikt gemaakt van Visual Studio Code. Daarin was de code makkelijker leesbaar door de kleuren. 
+
+De code hebben we zoveel mogelijk opgedeeld in classes. De basis daarvan stond beschreven in het document op Classroom. Een van onze ouders
+heeft mee gedacht hoe we de functies in de classes hebben opgezet. 
+
+Het spelvlak is opgebouwd uit een lijst met blokken. De blokken zijn genummerd. Onderstaande raster laat zien welk blok zich waar op het spelvlak bevind
+-------------------
+|  0 |  5 | 10| 15|
+-------------------
+|  1 |  6 | 11| 16|
+-------------------
+|  2 |  7 | 12| 17|
+-------------------
+|  3 |  8 | 13| 18|
+-------------------
+|  4 |  9 | 14| 19|
+-------------------
+Tijdens het lezen van de code is het belangrijk om bovenstaande "raster" in het achterhoofd te hebben. Veel van de lussen die in de code zitten zijn op het raster gebaseerd. 
